@@ -1,0 +1,28 @@
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section div {
+    width: 80%;
+    outline: 1px solid red;
+}
+
+
+section div p {
+    width: 50%;
+    outline: 1px solid pink;
+    float: left;
+}
+
+section div p img {
+    width: 100%;
+}
+
+section div {
+    clear: left;
+}
+
+/* .image-left {
+    float: left;
+} */
