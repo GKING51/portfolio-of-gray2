@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body {
+    background-color: #273B37;
+}
+nav {
+    /* width: 1700px; */
+    height: 100px;
+    position: relative;
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#96E0D4;
+    padding: 3%;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 50px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #527A74;
+}
+section {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A7FAEC;
+    
+}
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section div {
+    width: 80%;
+}
+
+
+section div p {
+    width: 50%;
+    float: left;
+}
+
+section div p img {
+    width: 100%;
+}
+
+section div {
+    clear: left;
+}
+footer {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #96E0D4;
+    padding: 2%;
+    /* width: 1700px */
+}
+
+.Plush, .DVD {
+font-size: 75px;
+}
+
+.Keychain, .Figurine {
+font-size: 75px;
+}
+/* .pad {
+    position: absolute;
+    left:50px;
+    bottom:-500px;
+}
+
+.figurine {
+    position: absolute;
+    left: 850px;
+    bottom: -1200px;
+}
+
+.rainbow {
+position: absolute;
+left: 50px;
+bottom: -1900px;
+}
+
+.raindrop {
+    position: absolute;
+    left: 850px;
+    bottom: -2600px
+} */
