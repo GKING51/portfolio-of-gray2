@@ -7,46 +7,49 @@
                         <!-- <link rel="stylesheet" type="text/css" href="aboutus/aboutus.css" /> -->
                         <title>The Portfolio of Gray</title>
                         <link href="css/merch.css" rel="stylesheet" type="text/css">
-                        <style type="text\css">
-                        </style>
                     </head>
         <body>
 
                <header>   
                 <!--insert logo here-->  
                                   
-<nav> 
+<nav class="navbar">
+    <input type="checkbox" id="checkbox" />
+    <label for="checkbox" id="hamburger">&#9776;</label> 
     <ul>
         <li><div><img src="images/poglogosmall.png" alt="poglogo"></div> </li>
-        <li><a href="#">Home Menu</a></li>
+        <li><a href="index.html">Home Menu</a></li>
         <li><b>Items</b></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Works</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Profile</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contacts.html">Profile</a></li>
     </ul>    
 </nav>
 </header>
 <main>
-    <section>
-        <div>
-            <p><img src="images/plush.png" alt="Plush"></p>
-            <p class="Plush">Plushes</p>
-        </div>
-        <div>
-            
-            <p><img src="images/keychain.png" alt="Keychain"></p>
-            <p class="Keychain">Keychains</p>
-        </div>
-        <div>
-            <p><img src="images/dvd_blu-ray.png" alt="Blu-Ray"></p>
-            <p class="DVD">DVDs/Blu-Rays</p>
 
+    <h1>What kind of item are you looking for?</h1>
+    <section>
+        <div class="image-pair">
+            <div>
+                <p><img src="images/plush.png" alt="Plush" width="400" height="400"></p>
+                <a href="plush.html">Plushes</p>
+            </div>
+            <div>
+                <p><img src="images/keychain.png" alt="Keychain" width="400" height="400"></p>
+                <a href="keychain.html">Keychains</p>
+            </div>
         </div>
-        <div class="image-right">
-            
-            <p><img src="images/figurines.png" alt="Figurine"></p>
-            <p class="Figurine">Figurines</p>
+        <div class="image-pair">
+        <div>
+            <p><img src="images/dvd_blu-ray.png" alt="Blu-Ray" width="400" height="400"></p>
+            <a href="blu-ray.html">DVDs/Blu-Rays</a>
+        </div>
+        <div>
+            <p><img src="images/figurines.png" alt="Figurine" width="400" height="400"></p>
+            <a href="figurine.html">Figurines</p>
+        </div>
         </div>
     </section>
 </main>
